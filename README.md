@@ -6,20 +6,20 @@
 ### File structure : 
          "main.tf"._
                   |                            |-- /network
-                  |							               |   "main.tf"
-                  |   /settings		             |   "output.tf"
-                  |	  "main.tf"				         |
+                  |		               |   "main.tf"
+                  |   /settings		  |   "output.tf"
+                  |   "main.tf"		  |
                   |-- "aws.tf"      ------------
                   |   "output.tf"              |
                   |                            |-- /security
                   |                            |   "main.tf"
                   |                            |   "output.tf"
                   |
-                  |                                     |-- /server
-                  |                                     |   "main.tf"
-                  |   /resource_setup                   |   "variables.tf"
-                  |   "main.tf"                         |
-                  |-- "aws.tf"		  ---------------------
+                  |                            |-- /server
+                  |                            |   "main.tf"
+                  |   /resource_setup          |   "variables.tf"
+                  |   "main.tf"                |
+                  |-- "aws.tf"       ----------
                   |   "variables.tf"
 ### settings :
 **1. network module:** to setup 
